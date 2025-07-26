@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  font-family: "Cormorant Garamond", serif;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+.link {
+  justify-content: space-evenly;
+  display: flex;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.link .name {
+  display: inline;
+  font-size: 25px;
+  color: white;
+}
+.head {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 250px;
+  margin-top: 80px;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 818px;
+  width: 1225px;
+  margin-top: -350px;
+}
+.words {
+  margin-top: 40px;
+  padding: 20px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  justify-content: space-evenly;
+  display: flex;
+  background-color: rgba(19, 19, 19, 0.94);
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 5));
+  }
+}
+.words li {
+  animation: scroll 20s linear infinite;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 50px;
+  display: inline;
+  font-size: 54px;
+}
+.dia {
+  width: 70px;
+}
+.quote {
+  text-align: center;
+  font-weight: lighter;
+  padding: 40px;
+  word-spacing: 10px;
+  color: rgb(252, 222, 227);
+}
+
+.lali {
+  justify-content: space-between;
+  display: flex;
+  margin-left: -45px;
+}
+.lali li {
+  display: inline;
+  list-style: none;
+}
+
+.quote {
+  font-size: 24px;
+  text-align: center;
+  padding: 60px 20px;
+  color: #f8cdd9;
+  font-style: italic;
+}
+
+/* About Section */
+.about {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #121212;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fdf2f8;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about blockquote {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 20px;
+  color: #dcb8c4;
+}
+
+/* Content Preview Section */
+.content-preview {
+  padding: 80px 40px;
+  background-color: #181818;
+  text-align: center;
+}
+
+.content-preview h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #fdf2f8;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: #fff;
+  color: #000;
+  padding: 30px 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.1);
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Feature Section */
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  background-color: #fff;
+  color: #000;
+  padding: 60px 0;
+}
+
+.feature-text {
+  flex: 1;
+  padding: 40px;
+}
+
+.feature-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.feature-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.feature-text button {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.feature-text button:hover {
+  background-color: #333;
+}
+
+.feature-img {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+/* Signup Section */
+.signup {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.signup h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.signup p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.signup form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.signup input {
+  padding: 12px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup button {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.signup button:hover {
+  background-color: #333;
+}
+
+/* Footer */
+.footer {
+  border-style: solid none none none;
+  border-width: 5px;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  box-shadow: 5px 8px 6px rgba(255, 255, 255, 0.2) inset;
+  margin-top: 50px;
+  padding: 80px;
+  background-color: rgba(19, 19, 19, 0.94);
+  box-shadow: 10px white;
+  text-align: center;
+  color: #fff;
+}
+
+.footer .social-links {
+  margin-bottom: 20px;
+}
+
+.footer .social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.footer .social-links a:hover {
+  opacity: 1;
+}
+
+.footer p {
+  font-size: 14px;
+  opacity: 0.5;
+}
