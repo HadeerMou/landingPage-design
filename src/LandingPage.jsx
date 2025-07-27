@@ -57,7 +57,7 @@ function LandingPage() {
       </h3>
 
       <section className="about">
-        <h2>About Neferonne</h2>
+        <h2>About InspoFA</h2>
         <p>
           At InspoFA, fashion becomes a language. We offer timeless inspiration,
           capsule wardrobe guides, and psychological insights into personal
