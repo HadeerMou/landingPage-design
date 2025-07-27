@@ -15,40 +15,42 @@ function LandingPage() {
         <h1 className="head">Fashion</h1>
         <img className="img" alt="fashion" src={FAimg} />
       </div>
-      <ul className="words">
-        <li className="li">Inspiration</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-        <li className="name">Style</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-        <li className="li">Elegance</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-        <li className="name">Confidence</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-        <li className="li">Inspiration</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-        <li className="name">Style</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-        <li className="li">Elegance</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-        <li className="name">Confidence</li>
-        <li className="li">
-          <img className="dia" src={diamond} alt="diamond" />
-        </li>
-      </ul>
+      <div className="scroll-wrapper">
+        <ul className="words">
+          <li className="li">Inspiration</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+          <li className="name">Style</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+          <li className="li">Elegance</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+          <li className="name">Confidence</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+          <li className="li">Inspiration</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+          <li className="name">Style</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+          <li className="li">Elegance</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+          <li className="name">Confidence</li>
+          <li className="li">
+            <img className="dia" src={diamond} alt="diamond" />
+          </li>
+        </ul>
+      </div>
 
       <h3 className="quote">
         “Elevate Your Style. Curated Fashion Advice for the Modern Muse.”
